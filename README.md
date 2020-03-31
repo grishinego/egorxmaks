@@ -17,6 +17,13 @@ namespace WindowsFormsApp8
             Convert.ToInt32(textBox5.Text) + Convert.ToInt32(textBox6.Text);
             textBox7.Text = a.ToString();
         }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            int b = Convert.ToInt32(textBox9.Text) + Convert.ToInt32(textBox10.Text) +
+           Convert.ToInt32(textBox12.Text) + Convert.ToInt32(textBox11.Text) +
+           Convert.ToInt32(textBox13.Text) + Convert.ToInt32(textBox14.Text);
+            textBox8.Text = b.ToString();
+        }
     }
 }
-
